@@ -3,13 +3,13 @@ package main
 import (
 	"log"
 
-	"iteung/config"
+	"github.com/alfianbr16/ws-2024/config"
 
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 
 
-	"iteung/url"
+	"github.com/alfianbr16/ws-2024/url"
 
 	"github.com/gofiber/fiber/v2"
 )
