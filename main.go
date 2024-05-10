@@ -3,18 +3,18 @@ package main
 import (
 	"log"
 
-	"github.com/alfianbr16/ws-2024/config"
+	"github.com/alfianbr16/ws-alfian2024/config"
 
 	"github.com/aiteung/musik"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 
 
-	"github.com/alfianbr16/ws-2024/url"
+	"github.com/alfianbr16/ws-alfian2024/url"
 
 	"github.com/gofiber/fiber/v2"
 )
 
-func main() {
+func main() { 
 	site := fiber.New(config.Iteung)
 	site.Use(cors.New(config.Cors))
 	url.Web(site)

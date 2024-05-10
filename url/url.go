@@ -1,7 +1,7 @@
 package url
 
 import (
-	"github.com/alfianbr16/ws-2024/controller"
+	"github.com/alfianbr16/ws-alfian2024/controller"
 
 	"github.com/gofiber/fiber/v2"
 )
